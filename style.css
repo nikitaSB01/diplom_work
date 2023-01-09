@@ -1,0 +1,378 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+*,
+*::before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  /*font-size: ;*/
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0px;
+  border: 0px;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+/*.................ПОЛНОЕ ОБНУЛЕНИЕ ВСЕХ СТИЛЕЙ И ТД ..............................*/
+.body {
+  max-width: 1124px;
+  width: 100%;
+  margin: 0px auto;
+  background-color: rgb(160, 99, 99);
+}
+/*.container {
+}*/
+/*.....................................ШАПКА САЙТА....................................*/
+header {
+  position: fixed;
+  max-width: 1124px;
+  width: 100%;
+  max-height: 72px;
+  height: 100%;
+  top: 0px;
+}
+.container_header {
+  background-color: aqua;
+}
+.navigation_container {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.button div {
+  display: inline-block;
+  justify-content: flex-end;
+}
+.logo_shapka {
+  display: inline-block;
+  margin-left: 81.38px;
+}
+.button1 {
+  width: 78px;
+  height: 40px;
+}
+.button2 {
+  width: 40px;
+  height: 72px;
+  margin: 0px 87px 0px 16px;
+}
+.navigation_link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.navigation_link:hover {
+  color: rgb(172, 61, 148); /* Цвет ссылки */
+}
+/*..................................///ШАПКА САЙТА....................................*/
+/*.....................................MAIN....................................*/
+.main {
+  max-width: 1124px;
+  width: 100%;
+  margin-top: 72px;
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(184, 174, 193);
+}
+.container_main {
+  flex: 1 1 auto;
+  width: 100%;
+}
+/*.....................................СЕКЦТЯ 1....................................*/
+.section_one {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+.form {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: aquamarine;
+  min-width: 962px; /*******?????*********/
+  min-height: 48px; /*******?????*********/
+  height: 100%;
+}
+/*..................................///СЕКЦТЯ 1....................................*/
+/*.....................................СЕКЦТЯ 2....................................*/
+.heading {
+  max-width: 217px;
+  max-height: 34px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  margin-left: 81px;
+  margin-bottom: 16px;
+}
+.heading h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #1d1d1d;
+}
+/*..................................///СЕКЦТЯ 2....................................*/
+/*.....................................СЕКЦТЯ 3....................................*/
+.container_cart {
+  max-width: 100%;
+  margin: 0px 87px 0px 81px;
+}
+.cartos {
+  display: flex;
+  justify-content: start;
+  flex-flow: wrap;
+}
+.cartos div {
+  max-width: 308px;
+  width: 100%;
+  max-height: 366px;
+  height: 100%;
+  flex: 1 1 auto;
+}
+.cartos div:not(:last-child) {
+  margin-right: 16px;
+}
+.card-body {
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+.cards {
+  text-decoration: none;
+  color: black;
+}
+.card-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+}
+.card-text {
+  margin: 4px auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+}
+.card-text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1d1d1d;
+}
+/*..................................///СЕКЦТЯ 3....................................*/
+
+/*..................................///MAIN....................................*/
+/*.....................................footer....................................*/
+footer {
+  margin: 80px auto 40px auto;
+}
+.container_3 {
+  max-width: 1124px;
+  width: 100%;
+  max-height: 552px;
+  height: 100%;
+}
+.footer_container {
+  width: 100%;
+  background-color: #262626;
+}
+.footer_row {
+  position: relative;
+  /******************************************/
+  margin-left: 81px;
+  /*****************************************/
+}
+.footer_logo {
+  padding-top: 56px;
+  padding-bottom: 40.31px;
+}
+.footer_level_2 {
+  max-width: 956px;
+  max-height: 220px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  border-top: 3px solid #979797;
+  border-bottom: 3px solid #979797;
+}
+.content_footer_level_2,
+.content_footer_level_4 {
+  display: flex;
+  justify-content: start;
+  padding-top: 32px;
+  padding-bottom: 48px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
+}
+.content_footer_level_2 .flexbox,
+.content_footer_level_4 div {
+  flex: 1 1 auto;
+  margin-right: 100px;
+  max-width: 227px;
+  width: 100%;
+}
+/*.flexbox {
+}*/
+.items_1 {
+  max-width: 227px;
+  max-height: 40px;
+  margin-bottom: 33px;
+}
+.items_2 {
+  border: 2px solid rgb(35, 32, 125);
+  max-width: 92px;
+  max-height: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.items_2 a div {
+  display: inline-block;
+  color: #49a144;
+}
+.items_2_2 {
+  display: flex;
+  margin-top: 17px;
+  justify-content: space-between;
+}
+.flexbox_2 ul li:not(:last-child),
+.flexbox_3 ul li:not(:last-child) {
+  margin-bottom: 23px;
+}
+.flexbox_2,
+.flexbox_3 {
+  margin-top: 7px;
+}
+.flexbox_2 a,
+.flexbox_3 a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.footer_level_3 {
+  max-width: 956px;
+  max-height: 220px;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  border-bottom: 3px solid #979797;
+}
+.content_footer_level_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.content_footer_level_3 div {
+  margin: 0px 20.17px;
+}
+.footer_level_4 {
+  max-width: 956px;
+  max-height: 93px;
+  width: 100%;
+  height: 100%;
+}
+/* ЭТО ЕСТЬ ВЫШЕ
+.content_footer_level_4 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.content_footer_level_4 div {
+  flex: 1 1 auto;
+  margin-right: 5px;
+}
+*/
+.footer_level_4 a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+}
+.button_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(16, 201, 56);
+  border-radius: 5px;
+}
+/*..................................///footer....................................*/
